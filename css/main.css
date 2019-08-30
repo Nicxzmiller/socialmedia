@@ -91,3 +91,43 @@ header .search-area ul li{
     display: inline-block;
 }
 /* end of header section */
+
+/* Top area */
+#top-area{
+    padding: 200px 15px 90px 15px;
+    background: url(https://mgo.azureedge.net/cloudcache/d/3/1/8/1/c/d3181cd1171cb2943421979632349bd8d80b4532.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#top-area .profile-info .user-img{
+    padding: 10px;
+    display: inline-block;
+}
+
+#top-area .profile-info .user-img img{
+    border-radius: 50%;
+}
+
+#top-area .profile-info .user-details{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#top-area .profile-info .user-details h3{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 200;
+    margin-top: 40px;
+}
+
+#top-area .profile-info .user-details a{
+    display: inline-block;
+    margin-left: -4px;
+    width: 50%;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, .3)
+}
+/*end of  Top area */
